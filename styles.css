@@ -161,6 +161,9 @@
   
   .button-wrapper{
     margin-top: 16px;
+    display: flex;
+
+    justify-content: center;
   }
   
   .btn-sign-up:hover {
@@ -189,3 +192,15 @@
   
     transition: opacity 0.4s ease;
   }
+
+
+  h1 {
+    font-size: 8.9vw;
+  }
+  h2 {
+    font-size: 4.8vh;
+  }
+  p {
+    font-size: 3vmin;
+  }
+  
