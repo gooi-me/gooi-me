@@ -1,5 +1,4 @@
 .background {
-
     background: url(https://res.cloudinary.com/dq1yih0di/image/upload/v1686579712/Artboard_1_copy_6_1_300x-100_ono6ur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,209 +7,211 @@
     display: flex;
     justify-content: center;
   }
-  
-  .logo-bg {
-    background-color: white;
-    margin: auto;
-    width: 85%;
-  }
-  .footer-wrapper{
-    margin-top: 35px;
-  }
-  
-  .top-text-container {
-    display: flex;
-    justify-content: center;
-    /* width: 65%; */
-    flex-direction: column;
-    align-self: center;
-  }
-  
-  .logo-image{
-    width:45%;
-  }
-  
-  .body-content {
 
-    text-align: center;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: flex-start;
-  
-    h1 {
-      color: rgb(0, 0, 0);
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-      font-weight: bold;
-      margin-top: 16px;
-    }
+.logo-bg {
+  background-color: white;
+  margin: auto;
+  width: 85%;
+}
+
+.footer-wrapper{
+  margin-top: 35px;
+}
+
+.top-text-container {
+  display: flex;
+  justify-content: center;
+  /* width: 65%; */
+  flex-direction: column;
+  align-self: center;
+  line-height: 5vh;
+}
+
+.logo-image{
+  width:45%;
+}
+
+.body-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+
+  h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-weight: bold;
+    margin-top: 16px;
   }
-  
-  
-  
+}
+
+.nav-container{
+  position: relative;
+  max-width: 65%;
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 25px;
+  width: 85%;
+
+  margin: auto;
+  padding: 12px 32px 12px 32px;
+  box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
+}
+
+@media (max-width: 1000px) {
+  /* Your CSS rules for screens with a maximum width of 1000px and below */
   .nav-container{
-    position: relative;
-    max-width: 65%;
-    background-color: rgb(255, 255, 255);
-
-    border-radius: 25px;
-    width: 85%;
-
-    margin: auto;
-    padding: 12px 32px 12px 32px;
-    box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
+    max-width: 100%;
   }
-  
-  @media (max-width: 1000px) {
-    /* Your CSS rules for screens with a maximum width of 1000px and below */
-    .nav-container{
-      max-width: 100%;
-    }
-  }
-  .body-blurb {
-    position: relative;
-    max-width: 65%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-    width: 85%;
-    margin: auto;
-    padding: 16px 32px 16px 32px;
-    box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+.body-blurb {
+  position: relative;
+  max-width: 65%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 85%;
+  margin: auto;
+  padding: 16px 32px 16px 32px;
+  box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .body-blurb h2 {
-    font-family: 'Montserrat', sans-serif; /* Change here to change font*/
-    color: rgb(60, 138, 99);
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    margin-top: 16px;
-    margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif; /* Change here to change font*/
+  color: rgb(60, 138, 99);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .body-blurb p {
   font-family: 'Montserrat', sans-serif;
 }
 
-  
+.nav-bar{
+  padding: 16px 32px 16px 32px;
+  box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 65%;
+  margin: auto;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 16px;
+}
+
+.body-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*  align-items: center; */
+}
+
+@media (max-width: 1000px) {
+  /* Your CSS rules for screens with a maximum width of 1000px and below */
+  .body-blurb{
+    max-width: 100%;
+  }
   .nav-bar{
-    padding: 16px 32px 16px 32px;
-    box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-    width: 65%;
-    margin: auto;
-    padding: 16px 32px 16px 32px;
-    margin-bottom: 16px;
+    max-width: 85%;
+    width: 85%
   }
-  
-  .body-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   /*  align-items: center; */
-  }
-  
-  @media (max-width: 1000px) {
-    /* Your CSS rules for screens with a maximum width of 1000px and below */
-    .body-blurb{
-      max-width: 100%;
-    }
-    .nav-bar{
-      max-width: 85%;
-      width: 85%
-    }
-  }
-  .logo-big {
-    width: 269px;
-    height: 269px;
-    background: rgba(255, 255, 255, 0.858);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    margin-top: 24px;
-  }
-  
-  /*button stuffs */
-  
-  .footer-text{
-    font-size: 2vmin;
-  }
-  
-  .nav-link{
-    color: #3C8A63;
-    line-height: 2;
-    font-weight: 600;
-    font-size: 2vmin;
-  }
+}
+.logo-big {
+  width: 269px;
+  height: 269px;
+  background: rgba(255, 255, 255, 0.858);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  margin-top: 24px;
+}
 
-  .btn-sign-up {
-    color: white;
-    background-color: #3C8A63;
-    border: 2px solid #3C8A63;
-    width: 38%;
-    padding: 4px 16px;
-    border-radius: 50px;
-    font-weight: lighter;
-    font-size: 4vmin;
-    box-shadow: 1px 1px lightgray;
-    /* text-shadow: 1px 1px lightgrey; */
-    
-    margin-bottom: 5px;
-  
-    transition: opacity 0.4s ease;
-  }
-  
-  .button-wrapper{
-    margin-top: 16px;
-    display: flex;
 
-    justify-content: center;
-  }
-  
-  .btn-sign-up:hover {
-    color: #0e0000;
-    background-color: white;
-    border: 2px solid rgb(32, 72, 59);
-    box-shadow: none;
-    text-shadow: none;
-  }
-  
-  
-  .about-button{
-    color: #B8F3FF;
-    
-    background-color: #3C8A63;
-    border: 2px solid white;
-  
-    padding: 4px 16px;
-    border-radius: 50px;
-    font-weight: lighter;
-    font-size: 4vmin;
-    font-family: 'Montserrat', sans-serif;
-    box-shadow: 1px 1px lightgray;
-    /* text-shadow: 1px 1px lightgrey; */
-    margin-top: -5px;
-    margin-bottom: 5px;
-  
-    transition: opacity 0.4s ease;
-  }
+.footer-text{
+  font-size: 2vmin;
+  line-height: 5vh;
+}
 
-.btn-sign-up{
+.nav-link{
+  color: #3C8A63;
+  line-height: 2;
+  font-weight: 600;
+  font-size: 2vmin;
+}
+
+/*button stuffs */
+
+.btn-sign-up {
+  color: white;
+  background-color: #3C8A63;
+  border: 2px solid #3C8A63;
+  width: 24%;
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-weight: lighter;
+  font-size: 5vmin;
+  box-shadow: 1px 1px lightgray;
+  /* text-shadow: 1px 1px lightgrey; */
+
+  margin-bottom: 5px;
+
+
+  /* transition: opacity 0.4s ease; */
+
+  /* the below was copied from a second class with the same name */
+
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
-  h1 {
-    font-size: 8.9vw;
-  }
-  h2 {
-    font-size: 4.8vh;
-  }
-  p {
-    font-size: 3vmin;
-  }
-  
+.button-wrapper{
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-sign-up:hover {
+  color: #0e0000;
+  background-color: white;
+  border: 2px solid rgb(32, 72, 59);
+  box-shadow: none;
+  text-shadow: none;
+}
+
+
+.about-button{
+  color: #B8F3FF;
+
+  background-color: #3C8A63;
+  border: 2px solid white;
+
+  padding: 4px 16px;
+  border-radius: 50px;
+  font-weight: lighter;
+  font-size: 4vmin;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 1px 1px lightgray;
+  /* text-shadow: 1px 1px lightgrey; */
+  margin-top: -5px;
+  margin-bottom: 5px;
+
+  transition: opacity 0.4s ease;
+}
+
+/* class with repeat name  */
+/* .btn-sign-up {
+} */
+
+h1 {
+  font-size: 8.9vw;
+}
+h2 {
+  font-size: 4.8vh;
+}
+p {
+  font-size: 3vmin;
+}
