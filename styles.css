@@ -176,9 +176,9 @@
 }
 
 .btn-sign-up:hover {
-  color: #0e0000;
+  color: #3C8A63;
   background-color: white;
-  border: 2px solid rgb(32, 72, 59);
+  border: 2px solid rgb(60, 138, 99);
   box-shadow: none;
   text-shadow: none;
 }
