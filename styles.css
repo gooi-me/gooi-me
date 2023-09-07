@@ -155,6 +155,7 @@
   font-weight: lighter;
   font-size: 5vmin;
   box-shadow: 1px 1px lightgray;
+  cursor: pointer;
   /* text-shadow: 1px 1px lightgrey; */
 
   margin-bottom: 5px;
