@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .logo-background{
     width: 80% !important;
   }
@@ -12,7 +12,7 @@
   }
 
   h2{
-    font-size: 3em;
+    font-size: 2em !important;
   }
   p{
     font-size: 1.5em;
@@ -89,7 +89,7 @@ body{
 .nav-container{
   position: relative;
   background: url('gooi_nav_background.png');
-  background-size: 800px;
+  background-size: 36em;
   width: 100vw;
   margin: auto;
   padding: 12px 32px 12px 32px;
@@ -155,6 +155,9 @@ body{
     max-width: 85%;
     width: 85%
   }
+
+
+
 }
 .logo-big {
   width: 269px;
@@ -246,10 +249,10 @@ h1 {
   font-size: 8.9vw;
 }
 h2 {
-  font-size: 4.8vh;
+  font-size: 2.5em;
 }
 p {
-  font-size: 25px;
+  font-size: 1.6em;
 }
 
 
@@ -281,6 +284,6 @@ p {
 
 .what-we-do{
   font-family: Heavitas !important;
-  font-size: 30px;
-  margin-top: 32px;
+  font-size: 2em;
+  margin-top: 2em;
 }
