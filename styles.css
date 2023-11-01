@@ -8,7 +8,20 @@
   }
 
   .footer-text{
-    font-size: 10px
+    font-size: 10px;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+  p{
+    font-size: 1.5em;
+  }
+  .btn-sign-up{
+    font-size: 3em;
+  }
+  .what-we-do{
+    font-size: 2em;
   }
  
 }
