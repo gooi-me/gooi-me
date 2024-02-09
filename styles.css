@@ -317,7 +317,8 @@ p {
 
 .seo {
 
-      font-size: 0vh !important;
-      color: white !important;
-  
+  font-size: 0vh !important;
+  color: white !important;
+  line-height: 0vh !important;
+
 }
