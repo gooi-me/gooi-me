@@ -20,6 +20,7 @@
     font-size: 10px;
   }
 
+
   h2 {
     font-size: 2em !important;
   }
@@ -163,8 +164,6 @@ body {
     width: 85%
   }
 
-
-
 }
 
 .logo-big {
@@ -195,11 +194,11 @@ body {
   color: white;
   background-color: #3C8A63;
   border: 2px solid #3C8A63;
-  width: 10em;
+  width: 6em;
   padding: 8px 12px;
   border-radius: 50px;
   font-weight: lighter;
-  font-size: 5vmin;
+  font-size: 3vmin;
   box-shadow: 1px 1px lightgray;
   cursor: pointer;
   /* text-shadow: 1px 1px lightgrey; */
@@ -313,5 +312,12 @@ p {
 }
 
 .smol-text{
-  font-size: 1em
+  font-size: 2em
+}
+
+.seo {
+  #main-heading {
+      font-size: 0vh !important;
+      color: white !important;
+  }
 }
