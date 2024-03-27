@@ -74,7 +74,6 @@ body {
   justify-content: center;
   /* width: 65%; */
   align-self: center;
-  line-height: 5vh;
 }
 
 .logo-image {
@@ -178,7 +177,6 @@ body {
 
 .footer-text {
   font-size: 1em;
-  line-height: 5vh;
 }
 
 .nav-link {
@@ -198,7 +196,7 @@ body {
   padding: 8px 12px;
   border-radius: 50px;
   font-weight: lighter;
-  font-size: 3vmin;
+  font-size: 6vmin;
   box-shadow: 1px 1px lightgray;
   cursor: pointer;
   /* text-shadow: 1px 1px lightgrey; */
@@ -284,6 +282,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .leaf {
