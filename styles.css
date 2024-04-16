@@ -24,9 +24,12 @@
   h2 {
     font-size: 2em !important;
   }
+  h3 {
+    font-size: 2em !important;
+  }
 
   p {
-    font-size: 1.5em !important;
+    font-size: 1em !important;
   }
 
   .btn-sign-up {
@@ -120,7 +123,7 @@ body {
   align-items: center;
 }
 
-.body-blurb h2 {
+.body-blurb h2, h3 {
   font-family: 'Heavitas', sans-serif;
   /* Change here to change font*/
   color: rgb(60, 138, 99);
@@ -258,8 +261,12 @@ h2 {
   font-size: 3.5em;
 }
 
+h3 {
+  font-size: 2.5em;
+}
+
 p {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 
