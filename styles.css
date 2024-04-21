@@ -3,6 +3,7 @@
   .blog-header-container {
     width: 80%;
     max-width: 62%;
+    font-family: 'Avenir', sans-serif;
   }
 
   .blog-body-container {
@@ -12,6 +13,7 @@
     align-items: center;
     width: 80%;
     max-width: 62%;
+    font-family: 'Avenir', sans-serif;
 }
 .background {
   max-height: 100vh;
@@ -99,6 +101,7 @@ body {
 
 .blog-header-container{
   width: 80%;
+  font-family: 'Avenir', sans-serif;
 }
 
 .background {
@@ -220,7 +223,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  width: 80%
+  width: 80%;
+  font-family: 'Avenir', sans-serif;
 }
 
 @media (max-width: 1000px) {
