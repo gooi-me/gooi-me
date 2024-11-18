@@ -45,136 +45,195 @@
 
 <body>
 
+  <!--header-->
 
-  <div class="background">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gooi</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="gooi-header">
+      <div class="inner-header-container">
+        <h1>The Simple Solution to a Complex Waste Crisis</h1>
+      </div>
+    </section>
 
-    <div class="body-content">
-      <div class="nav-container">
-        <div class="logo-container">
-          <div class='logo-background'>
-            <a href="/">
-              <img src="gooi_header.png" class="logo-image" />
-            </a>
+    <!-- Wave Container -->
+    <div class="wave-container">
+      <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18 58-18 88-18 58 18 88 18v44h-352z"/>
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="0" y="0" fill="rgba(255,255,255)"/>
+        </g>
+      </svg>
+    </div>
+  <!-- Mission Section -->
+  <section class="mission-section">
+    <div class="content-wrapper">
+      <!-- Left -->
+      <div class="info-container">
+        <h1>Our Mission<span class="yellow-txt">.</span></h1>
+        <p>At Gooi, we're committed to making composting an easy and practical <strong class="yellow-txt">solution for everyone.</strong> We aim to reduce landfill waste, support local farmers, and enhance soil quality. By simply putting your food scraps in your gooi bucket, you're contributing to a greener, more sustainable future. <br><br> Join us in turning waste into a valuable resource</p>
+        <div class="icons-container">
+          <div class="icon-container">
+            <img src="images/plant.png" class="icon" alt="Promote Growth">
+            <h3>Promote Growth</h3>
           </div>
-
+          <div class="icon-container">
+            <img src="images/bag.png" class="icon" alt="Enrich Soil">
+            <h3>Enrich Soil</h3>
+          </div>
+          <div class="icon-container">
+            <img src="images/mower.png" class="icon" alt="Support Farmers">
+            <h3>Support Farmers</h3>
+          </div>
         </div>
       </div>
-      <div class="body-blurb">
-        <div class="body-container">
-          <div class="header-container">
-            <h2>Organic waste recycling made easy</h2>
-            <p>Gooi makes composting your food waste as easy as throwing it in the bin.</p>
-            <img src="leaf.svg" alt="Leaf Icon" class='leaf'>
-            <p>Our goal is to divert organic waste from landfills and ensure it nourishes the earth instead. </p>
-          </div>
-
-
-          <div class="top-text-container">
-            <div class = 'body-between-leaves'>
-              <div class="what-we-do"><strong>WHAT WE DO</strong></div>
-              <div class='text-and-leaf'>
-                <p>Gooi offers weekly collection of food scraps from your doorstep.</p>
-                <img src="leaf.svg" alt="Leaf Icon" class='leaf'>
-                <p>Ready to join the food waste revolution?</p>
-              </div>
-              <div class="button-wrapper">
-                <button id='gooi-button' class="btn btn-sign-up" onclick="signMeUpPlease()">
-                  gooi!
-                </button>
-              </div>
-              <div class='text-and-leaf'>
-                <p>We coordinate food-waste delivery to composters around Cape Town.</p>
-                <p>Interested in receiving some food scraps for you home composting system?</p>
-              </div>
-              <div class="button-wrapper">
-                <button id='gooi-button' class="btn btn-sign-up" onclick="countMeInPlease()">
-                  groei!
-                </button>
-              </div>
-            </div>
-
-          </div>
-<br>
-          <div class = "why-we-do-it">
-            <br>
-            <div><img src="leaf-left.png" alt="Leaf Left" class='big-leaf'></div>
-            <div class = 'body-between-leaves'>
-              <p class="what-we-do"><strong>WHY WE DO IT</strong></p>
-                <p><a href="./story/">All food used to be returned to earth as compost.</a> There was a time before landfills and municipal rubbish trucks. Food was grown close by, every scrap was used, and the remains nourished the soil for future life.</p>
-                <div class="button-wrapper">
-                  <a href="/story" class="btn btn-sign-up">the story</a>
-                </div>
-                <p>Moving back to this cycle is not a far-off idea, all we need is coordination and some willing gooiers and groeiers.</p>
-                <div class="button-wrapper">
-                  <a href="/compost" class="btn btn-sign-up">how we compost</a>
-                </div>
-                <p>We do it because we love to celebrate life.</p>
-            </div>
-            <div><img src="leaf-right.png" alt="Leaf Right" class='big-leaf'></div>
-          </div>
-
-
-          <div class="footer-wrapper">
-            <p class="footer-text">Say goodbye to the hassle of disposing of your organic waste and embrace effortless
-              sustainability with gooi.
-            </p>
-            <div class="footer-links">
-              <a href="https://www.instagram.com/gooi_capetown/" target="_blank" rel="noopener noreferrer">
-                <img src="insta.svg" alt="Insta Icon" class='footer-icon'>
-              </a>
-              <a href="https://www.linkedin.com/company/gooi-me/about/" target="_blank" rel="noopener noreferrer">
-                <img src="linkedin.svg" alt="Linkedin Icon" class='footer-icon'>
-              </a>
-            </div>
-
-          </div>
-
+      <!-- Right -->
+      <div class="images-container">
+        <div class="img-1">
+          <img src="images/kobus.jpg" class="mission-image" alt="Kobus">
         </div>
-
+        <div class="img-2">
+          <img src="images/compost-01.jpg" class="mission-image" alt="Compost 01">
+        </div>
+        <div class="img-3">
+          <img src="images/compost-02.jpg" class="mission-image" alt="Compost 02">
+        </div>
       </div>
     </div>
+  </section>
 
-  </div>
-  <div class="seo">
-    <h1 id="main-heading">Compost collection Cape Town
-      Organic waste recycling Cape Town
-      Food scrap pickup Mouille Point
-      Green Point composting service
-      Sea Point food waste collection
-      Eco-friendly waste Fresnaye
-      Bakoven compostable waste pickup
-      Compost bin service Camps Bay
-      Higgovale community composting
-      Gardens Cape Town composting
-      Tamboerskloof organic waste pickup
-      Oranjezicht compost collection
-      Vredehoek composting solutions
-      Devil's Peak eco waste management
-      Observatory compost service
-      Mowbray kitchen waste composting
-      Rosebank compost pickup
-      Woodstock green waste collection
-      Walmer Estate composting
-      Newlands food waste recycling
-      Rondebosch composting program
-      Claremont organic waste disposal
-      Marina da Gama composting
-      Muizenberg compost collection service
-      Kalk Bay composting initiative
-      Fish Hoek zero waste composting
-      Clovelly compost pickup service
-      Lakeside residential composting
-      Constantia kitchen scrap collection
-      Wynberg composting solutions
-      Urban composting services Cape Town
-      Community composting projects Cape Town
-      Home composting services Cape Town
-      Weekly compost pickup Cape Town
-      Sustainable waste management Cape Town
-      Food waste diversion Cape Town
-      Composting for apartments Cape Town
-      Shared composting programs Cape Town
-      Compostable materials collection Cape Town
-      Cape Town composting movement</h1>
-  </div>
+  <section class="compost-section">
+    <h1>Why we compost</h1>
+    <div class="content-wrapper">
+      <div class="info-card-container">
+        <div class="info-card">
+          <div class="image-container">
+            <div class="overlay"></div>
+            <img src="images/compost-s-1.png" class="compost-image" alt="Reduce landfill waste">
+          </div>
+          <h3>Reduce landfill waste</h3>
+          <p>Composting helps divert organic waste from landfills, reducing methane emissions and conserving space.</p>
+        </div>
+        <div class="info-card">
+          <div class="image-container">
+            <div class="overlay"></div>
+            <img src="images/compost-s-2.png" class="compost-image" alt="Enhance Soil Health">
+          </div>
+          <h3>Enhance Soil Health</h3>
+          <p>Compost enriches soil, promoting healthier plant growth and improving water retention.</p>
+        </div>
+        <div class="info-card">
+          <div class="image-container">
+            <div class="overlay"></div>
+            <img src="images/compost-s-3.png" class="compost-image" alt="Support Local Agriculture">
+          </div>
+          <h3>Support Local Agriculture</h3>
+          <p>Our compost is donated to local farmers, helping to sustain and enhance agricultural practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!--testimonial section-->
+
+   <section class="testimonial-section">
+    <h1>Testimonials</h1>
+    <div class="content-wrapper">
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <p>"We love composting our waste, and Alfred is the sweetest man."</p>
+<!--          <div class="testimonial-image">-->
+            <%#= image_tag('gooi_logo_CR.png') %>
+<!--          </div>-->
+        <!-- <h4>name</h4>-->
+        </div>
+                <div class="testimonial-card">
+          <p>"It's been so helpful and has really made composting so much easier and more convenient!"</p>
+<!--          <div class="testimonial-image">-->
+            <%#= image_tag('gooi_logo_CR.png') %>
+<!--          </div>
+          <h4>name</h4>-->
+        </div>
+                <div class="testimonial-card">
+          <p>"Alfred is always on time and always so kind and with a happy smile."</p>
+<!--          <div class="testimonial-image">-->
+            <%#= image_tag('gooi_logo_CR.png') %>
+<!--          </div>
+          <h4>name</h4>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gooi</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- What is compostable -->
+  <section class="compostable-section">
+    <h1>What is compostable</h1>
+    <div class="content-wrapper">
+      <div class="compostable-container">
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/fruit-veg.svg" alt="Fruit and Vegetable Scraps">
+          <p class="compost-title">Fruit and Vegetable Scraps</p>
+          <p>All fruit and vegetable scraps are compostable.</p>
+        </div>
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/coffee-tea.svg" alt="Coffee Grounds and Tea Bags">
+          <p class="compost-title">Coffee Grounds and Tea Bags</p>
+          <p>Used coffee grounds and paper tea bags are great for composting and add valuable nitrogen.</p>
+        </div>
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/garden-waste.svg" alt="Garden Waste">
+          <p class="compost-title">Garden Waste</p>
+          <p>Green garden waste is ideal for composting, but avoid large branches or diseased plants.</p>
+        </div>
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/paper-products.svg" alt="Paper Products">
+          <p class="compost-title">Paper Products</p>
+          <p>Only uncoated paper and cardboard should be composted. Avoid glossy or colored paper.</p>
+        </div>
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/food-scraps.svg" alt="Food Scraps (Non-dairy and Non-meat)">
+          <p class="compost-title">Food Scraps (Non-dairy and Non-meat)</p>
+          <p>These items are compostable but avoid composting meat, dairy, and oily foods as they attract pests and decompose slowly.</p>
+        </div>
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/yard-trimmings.svg" alt="Yard Trimmings">
+          <p class="compost-title">Yard Trimmings</p>
+          <p>These items are compostable but may take longer to break down. Shredding them first helps.</p>
+        </div>
+        <div class="compostable-card">
+          <div class="overlay"></div>
+          <img src="images/natural-fibres.svg" alt="Natural Fibers">
+          <p class="compost-title">Natural Fibers</p>
+          <p>Natural fibers like cotton and wool can be composted. Ensure they are not dyed or treated with chemicals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 </body>
+</html>

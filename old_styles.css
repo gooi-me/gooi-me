@@ -1,0 +1,417 @@
+@media only screen and (max-width: 700px) {
+
+  .blog-header-container {
+    width: 80%;
+    max-width: 80%;
+    font-family: 'Avenir', sans-serif;
+  }
+
+  .blog-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 80%;
+    font-family: 'Avenir', sans-serif;
+  }
+  .background {
+  max-width: 100% !important;
+  }
+  .compost-video{
+  max-width: 100%;
+  }
+  .footer-wrapper {
+    margin-top: -2px;
+    width: 80%;
+  }
+  .logo-background {
+    width: 60% !important;
+  }
+  .btn-sign-up {
+    font-size: 4vmin !important;
+  }
+  .big-leaf {
+    display: none;
+  }
+  .leaf {
+    display: none;
+  }
+  .body-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .footer-text {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 80%;
+    font-family: 'Avenir', sans-serif;
+  }
+  iframe {
+    height: fit-content;
+  }
+  h2 {
+    font-family: 'Heavitas', sans-serif;
+    color: rgb(60, 138, 99);
+    font-size: 1.5em !important;
+    line-height: 1.1em;
+  }
+  h3 {
+    font-size: 1.5em !important;
+  }
+  p {
+    /* font-size: 1    em !important; */
+    line-height: 1.6em;
+    margin-bottom: 4px;
+    margin-top: 8px;
+  }
+  .btn-sign-up {
+    font-size: 3em;
+  }
+  .what-we-do {
+    font-size: 1.5em !important;
+  }
+  .compost-image {
+    max-height: 36rem;
+    max-width: 100% !important;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+.blog-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-header-container{
+  width: 80%;
+  font-family: 'Avenir', sans-serif;
+}
+
+.background {
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  max-width: 97%;
+}
+
+.photo-comment{
+  font-weight: lighter;
+    font-style: italic;
+}
+@font-face {
+  font-family: Avenir;
+  src: url("AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Heavitas;
+  src: url("Heavitas.ttf") format("truetype");
+}
+
+.logo-bg {
+  background-color: white;
+  margin: auto;
+  width: 85%;
+}
+
+.footer-wrapper {
+  margin-top: -2px
+}
+
+.top-text-container {
+  display: flex;
+  justify-content: center;
+  /* width: 65%; */
+  align-self: center;
+}
+
+.logo-image {
+  width: 65%;
+  border-radius: 42px;
+}
+
+.body-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+
+  h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    margin-top: 16px;
+  }
+}
+
+.nav-container {
+  position: relative;
+  background: url('gooi_nav_background.png');
+  background-size: 36em;
+  margin: auto;
+  padding: 16px 16px;
+  width: 100vw
+}
+
+
+
+.body-blurb {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-blurb h2, h3 {
+  font-family: 'Heavitas', sans-serif;
+  color: rgb(60, 138, 99);
+  margin-top: 16px;
+  margin-bottom: 0px;
+  line-height: 1.2em;
+}
+
+.body-blurb p {
+  font-family: 'Avenir', sans-serif;
+  margin: 8px auto;
+  padding: 10px;
+}
+
+.nav-bar {
+  padding: 16px 32px 16px 32px;
+  box-shadow: rgba(32, 72, 59, 0.3) 0px 0px 0px 3px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  width: 65%;
+  margin: auto;
+  padding: 16px 32px 16px 32px;
+  margin-bottom: 16px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw
+}
+
+.blog-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-family: 'Avenir', sans-serif;
+}
+
+@media (max-width: 1000px) {
+
+  /* Your CSS rules for screens with a maximum width of 1000px and below */
+
+  .nav-bar {
+    max-width: 85%;
+    width: 85%
+  }
+  .compost-image {
+    max-height: 36rem;
+    /* width: 100%; */
+    max-width: 100% !important;
+
+  }
+
+}
+
+.logo-big {
+  width: 269px;
+  height: 269px;
+  background: rgba(255, 255, 255, 0.858);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  margin-top: 24px;
+}
+
+
+.footer-text {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 80%;
+  font-family: 'Avenir', sans-serif;
+}
+
+.nav-link {
+  color: #3C8A63;
+  line-height: 2;
+  font-weight: 600;
+  font-size: 2vmin;
+}
+
+/*button stuffs */
+
+.btn-sign-up {
+  color: white;
+  background-color: #3C8A63;
+  border: 2px solid #3C8A63;
+  width: fit-content;
+  padding: 4px 16px;
+  border-radius: 50px;
+  font-weight: lighter;
+  font-size: 2.5vmin;
+  box-shadow: 1px 1px lightgray;
+  cursor: pointer;
+  /* text-shadow: 1px 1px lightgrey; */
+
+  margin-bottom: 5px;
+
+
+  /* transition: opacity 0.4s ease; */
+
+  /* the below was copied from a second class with the same name */
+
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.button-wrapper {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-sign-up:hover {
+  color: #3C8A63;
+  background-color: white;
+  border: 2px solid rgb(60, 138, 99);
+  box-shadow: none;
+  text-shadow: none;
+}
+
+
+.about-button {
+  color: #B8F3FF;
+
+  background-color: #3C8A63;
+  border: 2px solid white;
+
+  padding: 4px 16px;
+  border-radius: 50px;
+  font-weight: lighter;
+  font-size: 4vmin;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 1px 1px lightgray;
+  /* text-shadow: 1px 1px lightgrey; */
+  margin-top: -5px;
+  margin-bottom: 5px;
+
+  transition: opacity 0.4s ease;
+}
+
+/* class with repeat name  */
+/* .btn-sign-up {
+} */
+
+h1 {
+  font-size: 8.9vw;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+
+.logo-background {
+  width: 40%;
+  background-color: white;
+  border-radius: 57px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-and-leaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.leaf {
+  width: 31px;
+  margin-right: 16px
+}
+.compost-image {
+  max-height: 36rem;
+  /* height: 40rem; */
+  max-width: 100% !important;
+
+}
+
+.footer-icon{
+  width: 2em;
+}
+
+.what-we-do {
+  font-family: Heavitas !important;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+
+.big-leaf{
+  width: 8em;
+}
+
+.why-we-do-it{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 90%;
+  font-family: 'Avenir', sans-serif;
+}
+
+.smol-text{
+  font-size: 2em
+}
+
+.seo {
+
+  font-size: 0vh !important;
+  color: white !important;
+  line-height: 0vh !important;
+
+}
